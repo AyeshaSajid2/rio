@@ -1,0 +1,100 @@
+// ignore_for_file: constant_identifier_names
+
+part of 'app_pages.dart';
+// DO NOT EDIT. This is code generated via package:get_cli/get_cli.dart
+
+abstract class Routes {
+  Routes._();
+  static const SPLASH = _Paths.SPLASH;
+  static const SIGN_IN = _Paths.SIGN_IN;
+  static const SIGN_UP = _Paths.SIGN_UP;
+  static const FORGOT_PASSWORD = _Paths.FORGOT_PASSWORD;
+  static const VERIFY = _Paths.VERIFY;
+  static const RESET_PASSWORD = _Paths.RESET_PASSWORD;
+  static const ONBOARDING = _Paths.ONBOARDING;
+  static const DASHBOARD = _Paths.DASHBOARD;
+  static const ROUTER_SETUP = _Paths.ROUTER_SETUP;
+  static const SSID_CHECK = _Paths.SSID_CHECK;
+  static const WIFI_ONBOARDING = _Paths.WIFI_ONBOARDING;
+  static const CONNECTION_TIMER = _Paths.CONNECTION_TIMER;
+  static const ENABLE_ROUTER = _Paths.ENABLE_ROUTER;
+  static const SECURE_ROOM = _Paths.SECURE_ROOM;
+  static const CONNECTED_DEVICES = _Paths.CONNECTED_DEVICES;
+  static const SPEED_TEST = _Paths.SPEED_TEST;
+  static const SETTINGS = _Paths.SETTINGS;
+  static const SHARE_PASSWORD = _Paths.SHARE_PASSWORD;
+  static const WAITING_ROOM = _Paths.WAITING_ROOM;
+  static const BLOCKED_USERS = _Paths.BLOCKED_USERS;
+  static const VPN = _Paths.VPN;
+  static const WIRELESS_NETWORK = _Paths.WIRELESS_NETWORK;
+  static const SECURE_ROOM_TABS = _Paths.SECURE_ROOM_TABS;
+  static const ADMIN_LOGIN = _Paths.ADMIN_LOGIN;
+  static const ADD_WIRELESS_NETWORK = _Paths.ADD_WIRELESS_NETWORK;
+  static const ACTIVITY_LOG = _Paths.ACTIVITY_LOG;
+  // static const SET_API_ACCOUNT = _Paths.SET_API_ACCOUNT;
+  static const MESH = _Paths.MESH;
+  static const CHANGE_ADMIN_PASSWORD = _Paths.CHANGE_ADMIN_PASSWORD;
+  static const SCANNER = _Paths.SCANNER;
+  static const HOME = _Paths.HOME;
+  static const ADMIN_DEVICES = _Paths.ADMIN_DEVICES;
+  static const MANAGED_DEVICES = _Paths.MANAGED_DEVICES;
+  static const ADD_ROOM = _Paths.ADD_ROOM;
+  static const DEVICE_DETAILS = _Paths.DEVICE_DETAILS;
+  static const DEVICES = _Paths.DEVICES;
+  static const PASSWORDS = _Paths.PASSWORDS;
+  static const MOBILE_NO_VERIFY = _Paths.MOBILE_NO_VERIFY;
+  static const PROGRESS = _Paths.PROGRESS;
+  static const FORGOT_ROUTER_PASSWORD = _Paths.FORGOT_ROUTER_PASSWORD;
+  static const ROUTER_PASSWORD_CHANGE = _Paths.ROUTER_PASSWORD_CHANGE;
+  static const FIRMWARE_UPDATE = _Paths.FIRMWARE_UPDATE;
+  static const BACK_UP = _Paths.BACK_UP;
+  static const CUSTOMER_SUPPORT = _Paths.CUSTOMER_SUPPORT;
+}
+
+abstract class _Paths {
+  _Paths._();
+  static const SPLASH = '/splash';
+  static const SIGN_IN = '/sign-in';
+  static const SIGN_UP = '/sign-up';
+  static const FORGOT_PASSWORD = '/forgot-password';
+  static const VERIFY = '/verify';
+  static const RESET_PASSWORD = '/reset-password';
+  static const ONBOARDING = '/onboarding';
+  static const DASHBOARD = '/dashboard';
+  static const ROUTER_SETUP = '/router-setup';
+  static const ENABLE_ROUTER = '/enable-router';
+  static const CONNECTION_TIMER = '/connection-timer';
+  static const WIFI_ONBOARDING = '/wifi-onboarding';
+  static const SSID_CHECK = '/ssid-check';
+  static const SECURE_ROOM = '/secure-room';
+  static const CONNECTED_DEVICES = '/connected-devices';
+  static const SPEED_TEST = '/speed-test';
+  static const SETTINGS = '/settings';
+  static const SHARE_PASSWORD = '/share-password';
+  static const WAITING_ROOM = '/waiting-room';
+  static const BLOCKED_USERS = '/blocked-users';
+  static const VPN = '/vpn';
+  static const WIRELESS_NETWORK = '/wireless-network';
+  static const SECURE_ROOM_TABS = '/secure-room-tabs';
+  static const ADMIN_LOGIN = '/admin-login';
+  static const ADD_WIRELESS_NETWORK = '/add-wireless-network';
+  static const ACTIVITY_LOG = '/activity-log';
+  // static const SET_API_ACCOUNT = '/set-api_account';
+  static const MESH = '/mesh';
+  static const CHANGE_ADMIN_PASSWORD = '/change-admin-password';
+  static const SCANNER = '/scanner';
+  static const HOME = '/home';
+  static const ADMIN_DEVICES = '/admin-devices';
+  static const MANAGED_DEVICES = '/managed-devices';
+  static const ADD_ROOM = '/add-room';
+  static const DEVICE_DETAILS = '/device-details';
+  static const DEVICES = '/devices';
+  static const PASSWORDS = '/passwords';
+  static const MOBILE_NO_VERIFY = '/mobile-no-verify';
+  static const PROGRESS = '/progress';
+  static const FORGOT_ROUTER_PASSWORD = '/forgot-router-password';
+  static const ROUTER_PASSWORD_CHANGE = '/router-password-change';
+  static const FIRMWARE_UPDATE = '/firmware-update';
+  static const BACK_UP = '/back-up';
+  static const CUSTOMER_SUPPORT = '/customer-support';
+}
